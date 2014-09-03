@@ -1,0 +1,327 @@
+﻿/********************************************************/                            
+/*CSS FILE VASILEIOS FOUROULIS - PANAGIOTIS GEORGIOU    */							     
+/********************************************************/
+
+/*
+	margin |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|
+		   |                                                             |
+		   | border\-------------------------------------------------\   |                                                             |
+		   |       \  padding |- - - - - - - - - - - - - - - - |     \   |
+		   |       \          |                                |     \   |
+		   |       \          |          element               |     \   |
+		   |       \          |                                |     \   |
+		   |	   \		  |								   |	 \	 |
+		   |       \          |--------------------------------|     \   |
+		   |       \-------------------------------------------------\   |
+		   |                                                             |
+		   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -| 
+		   
+*/		   
+		   
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0; 
+}
+
+html 
+{
+	background-color: #dfdfdf; 
+}
+
+body 
+{
+	font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #827C78; 
+	line-height: 18px; 
+}
+
+h1
+ {
+    font-size:18px; 
+}
+
+img, input[type=image] 
+{
+	vertical-align: middle; 
+}
+
+
+
+a:link, a:active, a:visited  
+{
+        color: #8C2A32; 
+        text-decoration: none; 
+}
+
+a:hover 
+{
+    	text-decoration: underline;     
+}
+
+/* 2.4 Forms */ 
+
+input 
+{
+	color: black;
+	font-size: 12px; 
+	border: 1px solid #C0B7B3;
+    background-color: #dfdfdf; 
+	padding: 3px; 
+}
+
+/*DIVS*/ 
+
+#container 
+{
+	margin:  auto; 			
+	width: 1000px;  			
+    background-color: #ffffff; 
+	border: 1px solid #827C78; 
+	
+}
+
+#header
+{
+	height: 120px; 
+	width:100%;	
+}
+
+.user 
+{
+    font-size: 12px;
+    color: #ffffff;	
+    background-color: #827C78; 
+    padding: 5px;  
+    height: 20px;	
+    line-height: 20px; 
+}
+
+.user a 
+{
+    color: #ffffff; 
+}
+
+.logo 
+{
+	float: left; 
+	width: 400px; 
+	height: 60px; 
+    margin-top: 15px; 
+}
+  	
+/* search */
+
+#search  
+{
+    float: right; 
+    padding: 5px;
+    text-align: right; 
+    margin-top: 40px; 
+}
+
+#search a 	
+{
+	text-decoration: none; 
+	font-size: 11px; 
+}
+
+#search a:hover  
+{
+	text-decoration: underline; 
+}
+
+#search img.ok 
+{
+	border: none;
+	vertical-align: middle; 
+	margin-top: -5px; 
+	margin-right:0px; 
+	width: 16px;
+	height: 16px; 
+}
+
+/* bread */
+
+#bread  
+{
+	padding: 5px; 
+    background-color: #f8f8f8;
+    border-bottom: 1px dashed #dfdfdf;
+    border-top: 1px dashed #dfdfdf;  
+    font-size: 12px; 
+}
+
+#bread a 
+{
+	color: #827C78;
+	text-decoration: none; 
+	font-weight: bold;	
+}
+
+#bread a:hover  
+{
+	text-decoration: underline; 
+	color: #8C2A32;
+}
+
+#bread ul  
+{
+	margin-left: 0; 
+	padding-left: 0; 
+	display: inline; 
+} 
+
+#bread li 
+{
+	margin-left: 0; 
+	padding-left: 2px; 
+	border: none; 
+	list-style: none; 
+	display: inline; 
+}
+
+/* content  */
+
+#content 
+{
+	width: 100%; 
+    background-color:#ffffff;
+}
+
+#content_main 
+{
+	float: left;
+    width: 770px;
+    padding:5px; 
+    margin: 5px; 
+}
+
+/* left */
+
+#leftnav 
+{
+    float: left; 
+	width: 160px; 
+	padding:8px; 
+    margin: 10px;
+    border: 1px dashed #dfdfdf;
+    background-color: #f8f8f8;     
+}
+
+#navcontainer
+{
+    font-size: 12px; 
+}
+
+#navcontainer ul 
+{
+	margin:0; 
+	padding:0; 
+	list-style-type: none; 
+}
+
+#navcontainer a   
+{
+	display: block; 
+	padding: 3px; 
+	margin-top: 2px;
+	margin-left: -8px; 
+    color: #827C78; 
+    text-decoration: none;  
+}
+
+#navcontainer a:hover 
+{
+    text-decoration:underline;
+	color: #8C2A32;
+}
+
+#navcontainer li.category   
+{
+    font-weight: bold;
+	border-bottom: 1px dashed #dfdfdf; 
+    color: #827C78;   
+	padding: 5px; 
+	font-size: 13px; 
+}
+
+#navcontainer li img 
+ {
+	float:left;
+	margin-right:5px; 
+	clear:left; 
+} 
+
+/* footer  */
+
+#footer  
+{
+	width:100%; 
+	height: 50px;
+	background-color: #ffffff; 
+	border-top: 3px solid #8C2A32;
+}
+
+#clearfooter 
+{
+    height:30px; 
+    clear:both 
+}
+
+.title1 
+{
+	background-color:#827C78;
+ 	color: #ffffff; 
+	font-weight: bold; 
+	padding: 5px;
+	border-bottom: 2px solid #dfdfdf; 
+}
+
+.title1 a 
+ { 
+	color: #ffffff;   
+}
+
+.descr_title 
+{
+	background-color:#827C78;
+	color: #ffffff; 
+	font-weight: bold; 
+	padding: 5px; 
+	border-bottom: 2px solid #dfdfdf; 
+	margin-bottom: 10px; 
+}
+
+/*-------------------------------------
+Tables
+-------------------------------------*/
+.smaller  
+{
+    font-size: 11px; 
+}
+
+.tbl_courseid  
+{
+    background-color: #f8f8f8; 
+    margin: 0;
+    padding: 0; 
+}
+
+.course_info 
+ {
+        margin-bottom: 1em; 
+}
+
+.custom_list  
+{
+    padding: 0 15px 0 15px; 
+    margin: 0 5px; 
+}
+
+.custom_list ul 
+{
+    margin: 0; 
+    padding: 0; 
+}

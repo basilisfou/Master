@@ -1,0 +1,188 @@
+﻿<!Doctype html>
+
+<html>
+	<head>
+		<title>Gunet eClass</title>
+		<meta name = "Vasileios Fouroulis & Panagiotis Georgiou" charset = "UTF-8">
+		<link rel = "stylesheet" type="text/css" href = "part/theme.css">	
+	</head>
+	
+	<body>
+		<div id = "container" >
+			<div id = "header"> 
+				<div id = "user" class = "user">
+					<img src = "part/user.png" height ="16" width = "16" alt = "user"> 
+					<a href = "http://gunet2.cs.unipi.gr/eclass/login_form.php" title= "entry" ><b>&nbsp;Είσοδος</b></a> 
+				</div> <!-- τέλος user -->
+				<a href = "http://gunet2.cs.unipi.gr/eclass/">
+				<img src ="part/logo_openeclass.png" class ="logo"> 
+				</a>
+				<div id ="search"> 
+					<form title = "search"> 
+						<input type ="text" size ="20" name ="search_box">
+						<a href="http://gunet2.cs.unipi.gr/eclass/modules/search/search_incourse.php?all=true">
+						<img src="part/search.png" class = "ok"></a>
+					</form>
+				</div> 
+			</div> 
+			<div id ="bread"> 
+				<ul>
+					<li class = "first">
+						<a href="http://gunet2.cs.unipi.gr/eclass/">Αρχική σελίδα » </a> 
+					</li>
+					<li> 
+						<a href="new.html">Tεχνολογίες διαδικτύου » </a> 
+					</li> 
+					<li>
+						<b>Ταυτότητα Μαθήματος</b> 
+					</li>
+				</ul>
+			</div> 
+			<div id ="content"> 
+				<div id ="leftnav"> 
+					<div id ="navcontainer"> 
+						<ul id ="navlist">
+					
+							<li class = "category">
+							</li> 
+							<li>  
+								<div>
+									<a href="http://gunet2.cs.unipi.gr/eclass/modules/announcements/announcements.php?course=TME121"> 
+									<img src="part/announcements.png" width="16" height="16" border="0" style="padding-bottom: 8px;">Ανακοινώσεις</a> 
+								</div> 
+							</li>
+							<li>  
+								<div> 
+									<a href="http://gunet2.cs.unipi.gr/eclass/modules/agenda/agenda.php?course=TME121"> 
+									<img src="part/calendar_on.png" width="16" height="16" border="0" style="padding-bottom: 8px;">Ατζέντα</a> 
+								</div>
+							</li> 
+							<li> 
+								<div> 
+									<a href="http://gunet2.cs.unipi.gr/eclass/modules/document/document.php?course=TME121">  
+									<img src="part/docs_on.png" width="16" height="16" border="0" style="padding-bottom: 8px;">Έγγραφα</a>  
+								</div> 
+							</li>
+							<li> 
+								<div> 
+									<a href="http://gunet2.cs.unipi.gr/eclass/modules/course_description/?course=TME121"> 
+									<img src="part/description_o.png" width ="16" height="16" border ="0" style="padding-bottom: 8px;">Πληροφορίες μαθήματος</a>
+								</div> 
+							</li> 
+							<li>  
+								<div> 
+									<a href="http://www.w3schools.com/"> 
+									<img src="part/links_on.png" width ="16" height="16" border ="0" style="padding-bottom: 8px;">Συνδέσμοι</a> 
+								</div> 
+							</li> 
+						</ul> 
+					</div> 
+				
+				</div> <!-- τέλος τμήματος leftnav -->
+				<div id = "content_main"> <!-- τμήμα με id content_main , μορφοποιείται από το αρχείο CSS. Το content_main Περιλαμβάνει όλα τα υπόλοιπα στοιχεία του 
+				τμήματος content -->
+					<div id = "lesson"> <!-- τμήμα με id lesson , ουσιαστικά είναι το τμήμα που περιέχει το κείμενο με την επικεφαλίδα h1 -->
+						<a href = "new.html"><h1>Τεχνολογίες Διαδικτύου (μέρος του "αντικειμενοστρεφής προγραμματισμός και τεχνολογίες διαδικτύου")</h1></a> <!-- υπερκείμενο
+						το οποίο πατόντας το γυρίζει στον εαυτό του -->
+					</div> <!-- τέλος div lesson -->
+					<div id = "content_course"> <!-- τμήμα id: content_course --> 
+						<table name = "first_table" width="100%"> <!-- Πίνακας με όνομα first_table και πλάτος όσο το γονικό div , 
+						αυτο προσδιορίζεται από το πλάτος = %100 -->
+							<tbody>
+							<tr> <!-- 1η γραμμή του πίνακα first table-->
+								<td valign="top"> <!-- πρώτο κελί του πίνακα first table που ανήκει στην πρώτη γραμμή του πίνακα first_table -->
+									<div class="course_info"> <!-- πλαίσιο 554px x 220px που ανήκει στην πρώτη γραμμή πρώτο κελί του πίνακα first_table -->
+										<div class="descr_title">Περιγραφή</div> <!-- Πλαίσιο 554px x 30 px το οποίο μορφωποιείται από την κλάση descr_title του αρχείου CSS -->
+											<p>Στόχος του μαθήματος είναι να παρουσιάσει τις αρχές λειτουργίας του Διαδικτύου και 
+											να περιγράψει τις βασικές τεχνολογίες και γλώσσες προγραμματισμού που χρησιμοποιούνται στην 
+											ανάπτυξη εφαρμογών στον Παγκόσμιο Ιστό. Το πρωτο μέρος του μαθήματος είναι εισαγωγικό και 
+											&nbsp;παρουσιάζει με συνοπτικό τρόπο τις βασικές τεχνολογίες και τα πρωτόκολλα, στα οποία στηρίζεται 
+											το Διαδίκτυο και οι υπηρεσίες του. Το δεύτερο μέρος περιλαμβάνει τις περισσότερες διαλέξεις και περιγράφει 
+											τη γλώσσα μορφοποίησης HTML, εκδόσεις 4 και 5, το πρότυπο XHTML και τα πρότυπα CSS και CSS3. 
+											Επίσης, περιγράφει την ανάπτυξη δυναμικών εφαρμογών, που εκτελούνται στην πλευρά του πελάτη, 
+											με τη χρήση της γλώσσας σεναρίων &nbsp;JavaScript, καθώς και την ανάπτυξη δυναμικών εφαρμογών, 
+											που εκτελούνται στην πλευρά του εξυπηρετητή, με τη χρήση της γλώσσας PHP.</p>
+										</div> <!-- τέλος τμήματος course_info -->
+								</td> <!-- τέλος 1ου κελιού της πρώτης γραμμής του πίνακα first_table -->
+								<td width="200" valign="top"> <!-- αρχή 2ou κελιού στην πρώτη γραμμή του πίνακα first_table-->
+
+									<table class="tbl_courseid" name ="second_table" width="200"> <!-- πίνακας που ανήκει στο 2ο κελί της πρώτης γραμμής του πίνακα first_table με όνομα second_table μορφοποιείται από την κλάση tbl_courseid του αρχείου CSS -->
+									<tbody>
+										<tr class="title1"> <!-- πρώτη γραμμή του πίνακα second_table , μορφοποιείται από την κλάση title1 -->
+											<td class="title1">Ταυτότητα Μαθήματος</td> <!-- πρώτο κελί του πίνακα second_table στην πρώτη γραμμή -->
+										</tr> <!-- τέλος πρώτης γραμμής του πίνακα second_table -->
+									<tr> <!-- δεύτερη γραμμή του πίνακα second_table -->
+										<td class="smaller"> <!-- πρώτο κελί που ανήκει στην δεύτερη γραμμή του πίνακα second_table, μορφοποιείται από την κλάση smaller του αρχείου CSS -->
+											<ul class="custom_list"> <!-- Αρχή λίστας χωρίς αρίθμηση , ανοίκει στο πρώτο κελί της δεύτερης γραμμής του πίνακα second_table , μορφοποιείται από την κλάση custom_list του αρχείου CSS -->
+												<li><b>Κωδικός</b>: TME121</li> <!-- νέο bullet -->
+												<li><b>Εκπαιδευτές</b>: Χρήστος Δουληγέρης, Ιωάννης-Χρήστος Παναγιωτόπουλος</li> <!-- νέο bullet -->
+												<li><b>Σχολή - Τμήμα</b>: Μεταπτυχιακό "Πληροφορική"</li> <!-- νέο bullet -->
+												<li> <b>Τύπος</b>: Μεταπτυχιακό</li> <!-- νέο bullet -->
+											</ul> <!-- τέλος λίστας -->
+										</td> <!-- τέλος πρώτου κελιού που ανήκει στην δεύτερη γραμμή του πίνακα second_table -->
+									</tr> <!-- τέλος δεύτερης γραμμής του πίνακα second_table --> 
+									</tbody>
+									</table> <!-- τέλος πίνακα second_table -->
+    
+									<br> <!-- χαρακτήρας enter -->
+
+									<table class="tbl_courseid" width="200" name ="third_table ">  <!-- 3os πίνακας που μορφωποιείται από την κλάση tbl_courseid και έχει πλάτος
+									200 px -->
+									<tbody>
+										<tr class="title1"> <!-- πρώτη γραμμή του πίνακα third_table , μορφοποιείται από την κλάση title1 --> 
+											<td class="title1">Εργαλεία</td> <!-- πρώτο κελί του πίνακα third_table στην πρώτη γραμμή -->
+											<td class="left"> <!-- δεύτερο κελί του πίνακα third_table στην πρώτη γραμμή -->
+												<a href="mailto:cdoulig@unipi.gr?subject=Contact" id="email_btn"> <!-- ετικέτα mailto ουσιαστικά περιέχει ένα link Που πατόντας το
+												ανοίγει ο mail-browser και δημιουργείται το ένα καινουργίο mail με συμπληρωμένα πεδία to e-mail αποστολής που αναγράφεται από την 
+												ιδιότητα href και το πεδίο θέμα που αναγράφεται το περιεχόμενο της ιδιότητας subject -->
+													<img src="part/email.png" title="Επικοινωνία με τους εκπαιδευτές">  
+													</a>&nbsp;&nbsp; <!-- 2 κενα -->
+												<a href="http://www.cs.unipi.gr/index.php?option=com_content&view=category&layout=blog&id=51&Itemid=143&lang=el" 
+												title="ΤΕΧΝΟΛΟΓΙΕΣ ΔΙΑΔΙΚΤΥΟΥ (μέρος του &quot;αντικειμενοστρεφής 
+												προγραμματισμός και τεχνολογίες διαδικτύου&quot;) " class="jqbookmark"> <!-- μορφοποιείται από την κλαση jqbookmark -->
+													<img src="part/bookmark.png" title="Προσθήκη στους σελιδοδείκτες">
+													</a>&nbsp;&nbsp; <!-- 2 κενα -->
+												<span class="feed">
+												<a href="http://gunet2.cs.unipi.gr/eclass/modules/announcements/rss.php?c=TME121">
+													<img src="part/feed.png"  title="RSS"></a>
+												</span>&nbsp;
+											</td> <!-- τέλος δεύτερου κελιού -->
+										</tr> <!-- τέλος πρώτης γραμμής -->
+									</tbody>
+									</table> <!-- τέλος πίνακα third_table -->
+									<br> <!-- χαρακτήρας enter -->
+
+								</td> <!-- τέλος δεύτερου κελιού του πίνακα first_table στην πρώτη γραμμή -->
+							</tr>
+							</tbody>
+						</table> <!-- τέλος πίνακα  -->
+					</div> <!-- τέλος div content_course -->
+				</div> <!-- τέλος div content_main --> 
+			
+			</div> <!-- τέλος div content -->
+			<div id="clearfooter"></div><!-- τμήμα διαχωρισμού  του footer με το content -->
+			<div id="footer"> <!-- αρχή τμήματος footer αναφέρεται στο κατώτατο τμήμα της σελίδας μας , ανήκει μέσα στο τμήμα container -->
+				<table width="100%" name = "forth_table">  <!-- πίνακας με όνομα forth_table το χαρακτηριστικό 100% σημαίνει ότι έχει ίδιο πλάτος με το γονικό τμήμα -->
+					<tbody>
+						<tr> <!-- 1η γραμμή -->
+							<td width="33%"><a href="http://www.gunet.gr"> <!-- πρώτο κελί 1ης γραμμής -->
+								<img src="part/footer_logo.png" alt="GUnet"></a>
+							</td> <!-- τέλος 1ου κελιού -->
+							<td align="center" width="33%" style="padding-top: 5px;"> <!-- 2ο κελί  κεντραρισμένο στην μέση , με εσωτερικό περιθώριο : 5px και πλάτος 33% 
+							του γονικού πίνακα -->
+								<p><a href = "http://gunet2.cs.unipi.gr/eclass/info/copyright.php">
+									<span class="smaller">Πληροφορίες Πνευματικών Δικαιωμάτων</span> <!-- η ετικέτα span χρησιμοποιείται για να χρωματήσει ένα μέρος
+									του εγγράφου¨, επιρεάζεται από την κλάση smaller του αρχείου CSS  -->
+									</a>
+								</p>
+							</td> <!-- τέλος δεύτερου κελιού -->
+							<td align="right" width="33%"><a href="http://www.openeclass.org" target="_blank"> <!-- 3 κελί 1ης γραμμής -->
+								<img src="part/powered_by.png" alt="Open eClass"></a>
+							</td> <!-- τέλος 3ου κελιού -->
+						</tr> <!-- τέλος 1ης γραμμής του πίνακα forth_table -->
+					</tbody>
+				</table> <!-- τέλος πίνακα forth_table -->
+			</div>
+		</div> <!-- τέλος container -->
+	</body>
+</html>
