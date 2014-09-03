@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset = "UTF-8" name = "Panagiotis Georgiou & Vasileios Fouroulis | e-shop" ><!-- πληροφορίες ιστοσελίδας που είναι εμφανείς στον φυλλομετρητή και δεν εμφανίζονται πουθενα μέσα στη σελίδα -->
+	<title>Products</title><!-- τίτλος ιστοσελίδας -->
+	<link rel = "stylesheet" type="text/css" href = "ergasia_4.css"><!-- εισαγωγή αρχείου μορφοποίησης στύλ (CSS)-->
+	<!-- εισαγωγή αρχείου javascript-->
+	<script src ="ergasia_4.js">
+	</script>
+	
+	</head>
+	
+	<body><!-- τμήμα του κώδικα της ιστοσελίδας το οποίο εμφανίζεται στην οθόνη του χρήστη κατα την επίσκεψή του σε αυτήν -->
+		<div id = "header"><!-- το div είναι ετικέτα της οποίας τα περιεχόμενα συμπεριφέρονται ομοιομορφα.  Το header το πρώτο παραλληλόγραμμο κομμάτι της σελίδας στην κορυφή-->
+			<div id = "navbar"><!-- το μπλε πλάισιο με το μενόυ-->
+				<ul id = "Navigation_bar_list" name ="nav" title = "menu"><!-- κληρονομει μορφοποίηση από τo id Navigation_bar_list από το αρχείο css-->
+					<li>
+						&nbsp;&nbsp&nbsp;<a href ="Home.html" ><b>Home</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- χρήση υπερσυνδέσμων για την μεταφορά στην αντίστοιχη σελίδα κατα το κλίκ επάνω στο στοιχείο-->
+						|
+					</li>
+					<li>
+						&nbsp;&nbsp&nbsp;<a href ="productpage.html" ><b>Products</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						|
+					</li>
+					<li>
+						&nbsp;&nbsp&nbsp;<a href ="customer_care.html" ><b>Customer Support</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						|
+					</li>
+					
+					<li>
+						&nbsp;&nbsp&nbsp;<a href="mailto:vfouroulis.patt.gm@gmail.com?Subject=Contact"><b>Contact</b></a>
+					</li>
+				</ul>				
+			</div> <!-- end of navbar -->
+			<div id = "forms"><!-- κληρονομει μορφοποίηση από το id forms από το αρχείο css-->
+				<ul>
+					<li class = "search"><!-- κληρονομει μορφοποίηση από το id search από το αρχείο css-->
+						<form>
+							<input type = "text" size = "70" class = "search_box" height = "10">&nbsp;&nbsp;<!-- η μπάρα αναζήτησης-->
+						</form>
+					</li>
+					<li class = "search_button"><!-- το κουμπι search-->
+						<form>
+							<input type ="button" value ="Search">
+						</form>
+					</li>
+				</ul>
+			</div> <!-- end of logo -->
+		</div> <!-- end of header-->
+		
+		<div id = "container"><!-- κληρονομει μορφοποίηση από το id container από το αρχείο css-->
+		
+			<div id = "leftNav"><!-- κληρονομει μορφοποίηση από το id leftnav από το αρχείο css-->
+				<br><br>
+				<table id= "imgmorph"><!-- κληρονομει μορφοποίηση από το id imgmorph από το αρχείο css-->
+					<tr>
+						<td>
+						 price:110 euro <!-- τιμή του προιόντος-->
+						<img src ="three.jpg"  width= "200px"><!-- εικόνα του προιόντος πε προσδιορισμό μεγέθους-->
+						</td>
+					</tr>
+					<tr>	
+						<td>
+							<form >
+						    <input id="check_box_T-Shirt"  type="checkbox" value="110" >T-Shirt<!-- κληρονομει χαρακτηριστικά απο το function TotalCheckedValues και ειναι checkbox παρόμοια και παρακάτω-->
+							</form>
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							 price:60 euro 
+							<img src ="two.jpg" width= "200px">
+						</td>
+					</tr>
+					<tr>
+						<td > 
+						   <form>
+							<input id="check_box_ball"  type="checkbox" value="60" >Ball
+							</form>	
+							<hr>
+					    </td>
+					</tr>
+					<tr>
+						<td> 
+							price:120 euro 
+							<img src ="one.jpg" width= "200px">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<form>
+							<input id="check_box_Shoes" name="d"  type="checkbox" value="120" >Shoes
+							</form>
+						</td>
+					</tr>
+				</table>
+			</div> <!-- Τέλος leftNav-->
+			<div id = "main_body">
+			<!-- Σύνολο παραγγελίας -->
+				<table id = "table_payment"><!-- κληρονομει μορφοποίηση από το id table_payment από το αρχείο css-->
+					<tr>
+					    <td>
+						    <form>
+							<input id="Total_textbox" size="10" type="text" value ="0" ><!-- κληρονομει χαρακτηριστικά απο το function TotalCheckedValues και ειναι το textbox στο οποίο αρθρόιζονται τα υποσύνολα της παραγγελίας-->
+							</form>
+						</td>
+						<td>
+							<form>
+							<br>
+								<input id = "subtotal_button" onclick="TotalCheckedValues()" type="button" value="subtotal" ><!-- κληρονομει χαρακτηριστικά απο το function TotalCheckedValues και ειναι το κουμπί το οποίο πατιέται για να αρθρόιζονται τα υποσύνολα της παραγγελίας-->
+							 </form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</td>
+					<!-- Στοιχεία Πελάτη -->
+					</tr>
+					<tr>
+						<td>
+							Name:
+						</td>
+						<td>
+							<input type ="text" id ="Text_name" size = "20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- κληρονομει χαρακτηριστικά απο 
+							το function function MsgBox και ειναι το πεδίο στο οπόιο συμπληρώνει ο χρήστης το ονοματεπώνυμο-->
+						</td>
+						<td>
+							Select type of Card
+						</td>
+						<td>
+							<select><!-- drop down menu για επιλογή της κάρτας-->
+							<option Selected value=" "> </option>
+							<option value="MasterCard">MasterCard</option>
+							<option value="Visa">Visa</option>
+							<option value="AmericanExpress">American Express</option>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Address:
+						</td>
+						<td>
+							<input  type = "text" size = "20" id = "Address_order">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- πεδίο συμπλήρωσης διευθυνσης-->
+						</td>
+						<td>
+							Give Gredit Card Number:
+						</td>
+						<td>
+							<form>
+								<input type= "text" id ="Card_number" size = "16"><!-- πεδίο συμπλήρωσης αριθμού κάρτας-->
+							</form>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Town:
+						</td>
+						<td>
+							<input type= "text" size = "20" id = "Town"><!-- πεδίο συμπλήρωσης πόλης-->
+						</td>
+						<td>
+							Security Code:
+						</td>
+						<td>
+							<form>
+								<input type= "password" size = "5" id = "passwordCard"><!-- πεδίο συμπλήρωσης κωδικού ασφαλείας καρτας-->
+							</form>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Country:
+						</td>
+						<td>
+							<input type= "text" size = "20" id = "Country_order">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- πεδίο συμπλήρωσης χώρας-->
+						</td>
+						<td>
+							Expiration Date:
+						</td>
+						<td>
+							<form>
+								<input type = "text" size = "6" id = "DateCard" ><!-- πεδίο συμπλήρωσης ημερομηνίας λήξεως κάρτας-->
+							</form>
+						</td>
+					</tr>
+						
+				</table>
+				<!-- Κουμπί αγοράς -->
+				<div id = "proceed"><!-- κληρονομει μορφοποίηση από το id proceed από το αρχείο css-->
+						<button type = "button" id = "Valid"  onClick = "Validate()" >Validate</button>	<!-- κληρονομει χαρακτηριστικά απο το function MsgBox και ειναι το κουμπί το οποίο πατιέται για να γίνει η επιβεβαίωση εγκυρότητας των στοιχείων-->
+						<button type = "button" id = "proceed_button"  disabled onClick = "MsgBox()" > <!-- κληρονομει χαρακτηριστικά απο το function MsgBox και ειναι το κουμπί το οποίο πατιέται για να γίνει η ολοκλήρωση της παραγγελίας-->
+							<img src = "basket.png" width = "40"><!-- εικονα -->
+						</button>	
+				</div>
+			</div> <!-- end of body -->
+			
+		</div> <!-- end of container -->
+	</body>
+	<footer>
+		<table width="100%" name = "footer_table">  <!-- πίνακας με όνομα footer_table το χαρακτηριστικό 100% σημαίνει ότι έχει ίδιο πλάτος με το γονικό τμήμα : footer-->
+			<tbody>
+				<tr> <!-- 1η γραμμή -->
+					<td align="center" width="33%"> <!-- 1ο κελί  κεντραρισμένο στην μέση πλάτος 33% του γονικού πίνακα -->
+						<p>2014 World Cup Shop ® Fouroulis-Georgiou S.A. All rights Reserved. eBusiness Team</p>
+					</td> <!-- τέλος δεύτερου κελιού -->
+				</tr> <!-- τέλος 1ης γραμμής του πίνακα forth_table -->
+			</tbody>
+			</table> <!-- τέλος πίνακα forth_table -->
+	
+	</footer>
+</html>
+
+
+	
