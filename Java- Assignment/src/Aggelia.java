@@ -24,7 +24,7 @@ public class Aggelia
 		insertAdvertisement = insertAdvertisement + ".";
 	}
 	
-	/* reads the next character of input and returns this character. 
+	/* reads the next character of input and returns the character. 
 	 * The next input is becoming in the same line from the position that 
 	 * had stopped previous */ 
 	public char readChar() throws IOException 
@@ -112,7 +112,7 @@ public class Aggelia
 		System.out.println("1: You gave as an advertisment: " + insertAdvertisement);
 		System.out.println("2: Your advertisment has " + numberOfLetters + " letters." );
 		System.out.println("3: The number of words are: " + countWords(insertAdvertisement));
-		System.out.println("4: the charge is: " + charge()+ " €");
+		System.out.println("4: the charge is: " + charge()+ " â‚¬");
 		System.out.println("5: the number of lines is: " + countLines(insertAdvertisement));	
 	}
 }
