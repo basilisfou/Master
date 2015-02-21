@@ -1,0 +1,6 @@
+C:\Users\Billy\Google Drive\Development\Visual C#\GateDemo3\GateDemo3\obj\Debug\Castle_town.Form1.resources
+C:\Users\Billy\Google Drive\Development\Visual C#\GateDemo3\GateDemo3\obj\Debug\GateDemo3.Form2.resources
+C:\Users\Billy\Google Drive\Development\Visual C#\GateDemo3\GateDemo3\obj\Debug\GateDemo3.Properties.Resources.resources
+C:\Users\Billy\Google Drive\Development\Visual C#\GateDemo3\GateDemo3\obj\Debug\Castle_town.csproj.GenerateResource.Cache
+C:\Users\Billy\Google Drive\Development\Visual C#\GateDemo3\GateDemo3\obj\Debug\GateDemo3.exe
+C:\Users\Billy\Google Drive\Development\Visual C#\GateDemo3\GateDemo3\obj\Debug\GateDemo3.pdb
